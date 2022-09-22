@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+<configuration scan="true" scanPeriod="1 minutes">
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender" level="INFO">
+        <encoder>
+            <pattern>%date{dd-MM HH:mm:ss} %highlight(%-5level) %-10([%mdc{user}]) %-60.60logger{60} l:%-4line - %message%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.springframework.web" level="DEBUG" />
+	<logger name="fr.n74projects.smartfridge.notebook" level="DEBUG" />
+    
+    <root>
+        <appender-ref ref="console"/>
+    </root>
+
+</configuration>

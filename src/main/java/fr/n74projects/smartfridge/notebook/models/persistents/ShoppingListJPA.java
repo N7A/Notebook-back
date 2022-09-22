@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -23,6 +24,7 @@ public class ShoppingListJPA implements Serializable {
     @Column(name = "sli_id", nullable = false)
     private Long id;
 
+    @CreatedDate
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "sli_date_creation", nullable = false)
     private Date dateCreation;
