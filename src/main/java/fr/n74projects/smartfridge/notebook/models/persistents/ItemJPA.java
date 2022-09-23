@@ -28,4 +28,8 @@ public class ItemJPA {
     @Column(name = "itm_quantite")
     private Integer quantite;
 
+    @Basic
+    @Column(name = "itm_active", nullable = false)
+    private Boolean active;
+
 }

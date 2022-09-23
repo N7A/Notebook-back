@@ -29,15 +29,12 @@ public class ShoppingListJPA implements Serializable {
     @Column(name = "sli_date_creation", nullable = false)
     private Date dateCreation;
 
-    @Basic
-    @Column(name = "sli_active", nullable = false)
-    private Boolean active;
-
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "sli_date_archivage")
     private Date dateArchivage;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
+    @OrderColumn(name="itm_ordre")
     @JoinColumn(name = "itm_fk_sli", referencedColumnName = "sli_id")
     private List<ItemJPA> items;
 
