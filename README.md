@@ -1,3 +1,13 @@
+[![](https://badgen.net/github/tag/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/tags)
+[![](https://badgen.net/github/release/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/releases)
+[![](https://badgen.net/github/last-commit/N7A/Notebook-back/develop)](https://github.com/N7A/Notebook-back/compare/main...develop)
+[![](https://badgen.net/github/status/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/compare/main...develop)
+
+[![](https://badgen.net/github/branches/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/branches)
+[![](https://badgen.net/github/open-issues/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/issues)
+[![](https://badgen.net/github/milestones/N7A/Notebook-back/1)](https://github.com/N7A/Notebook-back/milestone/1)
+[![](https://badgen.net/github/open-prs/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/pulls)
+
 # Notebook
 
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/N7A/Notebook-back)
