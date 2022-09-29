@@ -2,6 +2,7 @@
 [![](https://img.shields.io/github/v/release/N7A/Notebook-back?display_name=tag&sort=semver)](https://github.com/N7A/Notebook-back/releases)
 ![](https://img.shields.io/github/release-date/N7A/Notebook-back)
 [![](https://img.shields.io/github/last-commit/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/compare/main...develop)
+<!--[![](https://badgen.net/github/last-commit/N7A/Notebook-back/develop)](https://github.com/N7A/Notebook-back/compare/main...develop)-->
 [![](https://badgen.net/github/status/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/compare/main...develop)
 <!--
 ![](https://img.shields.io/github/commit-activity/w/N7A/Notebook-back)
