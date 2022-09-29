@@ -18,7 +18,7 @@
 
 # Notebook
 
-[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/N7A/Notebook-back)
+[![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/N7A/Notebook-back)
 ![Licence](https://img.shields.io/github/license/N7A/Notebook-back?style=for-the-badge)
 
 Lien *healthcheck* : http://localhost:8081/notebook/actuator/health
