@@ -13,6 +13,7 @@
 [![](https://badgen.net/github/branches/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/branches)
 [![](https://img.shields.io/github/issues-raw/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/issues)
 [![Maintainability](https://api.codeclimate.com/v1/badges/953e1b86eee186b5449c/maintainability)](https://codeclimate.com/github/N7A/Notebook-back/maintainability)
+[![](https://img.shields.io/librariesio/github/N7A/Notebook-back)](https://libraries.io/github/N7A/Notebook-back)
 
 [![](https://badgen.net/github/milestones/N7A/Notebook-back/1)](https://github.com/N7A/Notebook-back/milestone/1)
 [![](https://img.shields.io/github/issues-pr-raw/N7A/Notebook-back)](https://github.com/N7A/Notebook-back/pulls)
@@ -27,6 +28,10 @@ Lien *healthcheck* : http://localhost:8081/notebook/actuator/health
 Lien *HAL Explorer* : http://localhost:8081/notebook/explorer/index.html#uri=/notebook/
 
 <!-- Lien *SonarQube* : http://localhost/sonar/dashboard?id=fr.n74projects.smartfridge%3Anotebook-back -->
+
+Lien *Code Climate* : https://codeclimate.com/github/N7A/Notebook-back/maintainability
+
+Lien *libraries.io* : https://libraries.io/github/N7A/Notebook-back
 
 ## Technologies
 
