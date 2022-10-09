@@ -1,4 +1,4 @@
-package fr.n74projects.smartfridge.notebook.exceptions;
+package fr.n74projects.api.smartfridge.notebook.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -9,6 +9,7 @@ import java.io.Serial;
  * Exception pour un service non disponible.
  * Génère un retour HTTP 503.
  *
+ * @since v1.0
  */
 @ResponseStatus(HttpStatus.SERVICE_UNAVAILABLE)
 public class ServiceUnavailableException extends RuntimeException {

@@ -1,4 +1,4 @@
-package fr.n74projects.smartfridge.notebook.models.persistents;
+package fr.n74projects.api.smartfridge.notebook.models.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

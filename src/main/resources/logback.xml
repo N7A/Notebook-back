@@ -10,7 +10,7 @@
     </appender>
 
     <logger name="org.springframework.web" level="DEBUG" />
-	<logger name="fr.n74projects.smartfridge.notebook" level="DEBUG" />
+	<logger name="fr.n74projects.api.smartfridge.notebook" level="DEBUG" />
     
     <root>
         <appender-ref ref="console"/>

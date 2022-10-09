@@ -27,7 +27,7 @@ Lien *healthcheck* : http://localhost:8081/notebook/actuator/health
 
 Lien *HAL Explorer* : http://localhost:8081/notebook/explorer/index.html#uri=/notebook/
 
-<!-- Lien *SonarQube* : http://localhost/sonar/dashboard?id=fr.n74projects.smartfridge%3Anotebook-back -->
+<!-- Lien *SonarQube* : http://localhost/sonar/dashboard?id=fr.n74projects.api.smartfridge%3Anotebook-back -->
 
 Lien *Code Climate* : https://codeclimate.com/github/N7A/Notebook-back/maintainability
 

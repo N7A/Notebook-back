@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'fr.n74projects.smartfridge'
+group = 'fr.n74projects.api.smartfridge'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 

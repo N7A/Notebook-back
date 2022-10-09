@@ -1,4 +1,4 @@
-package fr.n74projects.smartfridge.notebook;
+package fr.n74projects.api.smartfridge.notebook;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package fr.n74projects.smartfridge.notebook.exceptions;
+package fr.n74projects.api.smartfridge.notebook.exceptions;
 
 import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -10,11 +10,11 @@ import java.io.Serial;
  * Exception pour une ressource non trouvée.
  * Génère un retour HTTP 404.
  * 
- * @author m-blondeau
+ * @since v1.0
  */
 @NoArgsConstructor
-@ResponseStatus(HttpStatus.NOT_FOUND)
-public class NotFoundException extends RuntimeException {
+@ResponseStatus(HttpStatus.BAD_REQUEST)
+public class BusinessException extends RuntimeException {
 
 	/**
 	 * clé de hachage
@@ -22,11 +22,11 @@ public class NotFoundException extends RuntimeException {
 	@Serial
 	private static final long serialVersionUID = 128941395673289723L;
 
-	public NotFoundException(String message) {
+	public BusinessException(String message) {
 		super(message);
 	}
 
-	public NotFoundException(String message, Throwable cause) {
+	public BusinessException(String message, Throwable cause) {
 		super(message, cause);
 	}
 
